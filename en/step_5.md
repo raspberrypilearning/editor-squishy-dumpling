@@ -9,7 +9,7 @@ You're still working on the **dumpling sprite**.
 Back in the **Code** tab, play your sound as the squash starts.
 
 ```blocks3
-when I receive [lid clicked v]
+when I receive [lid v]
 +start sound (squishy v)
 repeat (15)
 next costume

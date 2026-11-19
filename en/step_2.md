@@ -14,7 +14,7 @@ Click on the **dumpling sprite**.
 Slow the swap down.
 
 ```blocks3
-when I receive [lid clicked v]
+when I receive [lid v]
 repeat (15)
 next costume
 wait (0.1) seconds
@@ -30,7 +30,7 @@ end
 Go back to the smiling costume at the end.
 
 ```blocks3
-when I receive [lid clicked v]
+when I receive [lid v]
 repeat (15)
 next costume
 wait (0.1) seconds
