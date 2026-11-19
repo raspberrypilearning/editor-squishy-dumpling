@@ -4,9 +4,9 @@ Finish the spin facing forwards, so the dumpling is never left on its side.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
-You're still working on the **Dumpling sprite**.
+You're still working on the **dumpling sprite**.
 
-Add a `point in direction`{:class="block3motion"} block under the loop.
+Point the dumpling the right way up when the spin ends.
 
 ```blocks3
 when I receive [stars v]
@@ -18,6 +18,6 @@ end
 
 ## Now run your code
 
-Click on the **Starfish**.
+Click on the **star**. Check that the dumpling is upright at the end of the spin.
 
-Check that the dumpling is upright at the end of the spin.
+![PLACEHOLDER: the dumpling ends the spin upright.](images/step-13.gif){:width="450px"}

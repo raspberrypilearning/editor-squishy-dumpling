@@ -6,6 +6,8 @@ Make the dumpling your own.
 
 Choose a new backdrop for the stage from the library, or paint a kitchen of your own.
 
+![PLACEHOLDER: the dumpling on a new backdrop.](images/challenge.png){:width="450px"}
+
 ## Add another button
 
 Add a third sprite with its own message, and give the dumpling a new reaction to go with it.
@@ -20,4 +22,4 @@ Add a sound to the lid as well, so the basket squeaks every time it lifts.
 
 ## Fill the stage
 
-Raise the number of clones the starfish makes, and change the glide time to send them further.
+Raise the number of clones the star makes, and change the glide time to send them further.

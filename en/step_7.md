@@ -6,9 +6,11 @@ Flash the dumpling through lots of colours.
 
 ## Step 1
 
-Click on the **Dumpling sprite**.
+Click on the **dumpling sprite**.
 
-Add a `when I receive`{:class="block3events"} block set to `rainbow`{:class="block3events"}, and a `repeat`{:class="block3control"} loop with a `change effect by`{:class="block3looks"} block inside.
+## Step 2
+
+Change the dumpling's colour 15 times when the message arrives.
 
 ```blocks3
 +when I receive [rainbow v]
@@ -17,9 +19,9 @@ Add a `when I receive`{:class="block3events"} block set to `rainbow`{:class="blo
 +end
 ```
 
-## Step 2
+## Step 3
 
-Slow the colour change down with a `wait`{:class="block3control"} block inside the loop.
+Slow the colour change down.
 
 ```blocks3
 when I receive [rainbow v]
@@ -31,6 +33,6 @@ end
 
 ## Now run your code
 
-Click on the **Rainbow**.
+Click on the **rainbow**. Check that the dumpling flashes through different colours.
 
-Check that the dumpling flashes through different colours.
+![PLACEHOLDER: the dumpling flashes through different colours.](images/step-7.gif){:width="450px"}

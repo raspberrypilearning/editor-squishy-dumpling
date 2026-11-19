@@ -2,6 +2,7 @@ title: Squishy dumpling
 hero_image: images/banner.png
 description: Make a dumpling that squashes, changes colour and spins when you click
 listed: false
+landing: true
 pdf: false
 steps:
   - title: Lift the lid
@@ -16,15 +17,15 @@ steps:
   - title: Back to yellow
   - title: Add a rainbow sound
   - title: Lift the lid for the rainbow
-  - title: Add a starfish button
+  - title: Add a star button
   - title: Spin the dumpling
   - title: Face the front again
   - title: Add a spinning sound
-  - title: Make starfish clones
+  - title: Make star clones
   - title: Set up each clone
   - title: Make every clone different
   - title: Send the clones flying
-  - title: Lift the lid for the starfish
+  - title: Lift the lid for the star
     completion:
       - internal
   - title: Challenges

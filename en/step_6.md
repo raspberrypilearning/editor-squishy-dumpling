@@ -6,13 +6,17 @@ Add a button the player can click for a rainbow effect.
 
 ## Step 1
 
-Choose the **Rainbow sprite** from the sprite library.
+Choose the **rainbow sprite** from the sprite library.
 
-Drag it to the bottom right of the stage.
+![PLACEHOLDER: choosing the rainbow sprite from the library.](images/rainbow-choose.png){:width="450px"}
 
 ## Step 2
 
-Add a `when this sprite clicked`{:class="block3events"} block and a `broadcast`{:class="block3events"} block set to a new message called `rainbow`{:class="block3events"}.
+Drag it to the bottom right of the stage.
+
+## Step 3
+
+Send a new message called `rainbow`{:class="block3events"} when the rainbow is clicked.
 
 ```blocks3
 +when this sprite clicked

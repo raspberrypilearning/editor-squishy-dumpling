@@ -1,18 +1,22 @@
-## Add a starfish button
+## Add a star button
 
-Add a second button for a shower of starfish.
+Add a second button for a shower of stars.
 
-![starfish sprite](images/star-sprite.png){:width="80px"}
+![star sprite](images/star-sprite.png){:width="80px"}
 
 ## Step 1
 
-Choose the **Starfish sprite** from the sprite library.
+Choose the **star sprite** from the sprite library.
 
-Drag it to the bottom left of the stage.
+![PLACEHOLDER: choosing the star sprite from the library.](images/star-choose.png){:width="450px"}
 
 ## Step 2
 
-Add a `when this sprite clicked`{:class="block3events"} block and a `broadcast`{:class="block3events"} block set to a new message called `stars`{:class="block3events"}.
+Drag it to the bottom left of the stage.
+
+## Step 3
+
+Send a new message called `stars`{:class="block3events"} when the star is clicked.
 
 ```blocks3
 +when this sprite clicked

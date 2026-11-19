@@ -8,18 +8,20 @@ The starter project is open beside these instructions, with all the sprites you 
 
 ## Step 1
 
-Click on the **Lid sprite**, it has some blocks to get you started.
+Click on the **lid sprite**, it has some blocks to get you started.
 
-Add a `when this sprite clicked`{:class="block3events"} block and a `glide`{:class="block3motion"} block.
+## Step 2
+
+Make the lid glide up when it is clicked.
 
 ```blocks3
 +when this sprite clicked
 +glide (1) secs to x: (65) y: (120)
 ```
 
-## Step 2
+## Step 3
 
-Make the lid settle back down with a `wait`{:class="block3control"} block and a second `glide`{:class="block3motion"} block.
+Let the lid wait, then glide back down.
 
 ```blocks3
 when this sprite clicked
@@ -30,6 +32,6 @@ glide (1) secs to x: (65) y: (120)
 
 ## Now run your code
 
-Click on the **Lid**.
+Click on the **lid**. Check that it lifts up and settles back down.
 
-Check that it lifts up and settles back down.
+![PLACEHOLDER: the lid lifts up and settles back down.](images/step-1.gif){:width="450px"}

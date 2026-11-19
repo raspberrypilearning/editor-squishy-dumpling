@@ -4,9 +4,9 @@ Set the colour back to normal at the end, so the dumpling starts yellow every ti
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
-You're still working on the **Dumpling sprite**.
+You're still working on the **dumpling sprite**.
 
-Add a `set effect to`{:class="block3looks"} block under the loop.
+Clear the colour when the flashing stops.
 
 ```blocks3
 when I receive [rainbow v]
@@ -19,6 +19,6 @@ end
 
 ## Now run your code
 
-Click on the **Rainbow**.
+Click on the **rainbow**. Check that the dumpling is yellow again at the end.
 
-Check that the dumpling is yellow again at the end.
+![PLACEHOLDER: the dumpling returns to yellow.](images/step-8.gif){:width="450px"}

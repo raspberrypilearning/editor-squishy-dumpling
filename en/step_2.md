@@ -4,9 +4,9 @@ Send a message so the dumpling knows the lid has been lifted.
 
 ![lid sprite](images/lid-sprite.png){:width="80px"}
 
-You're still working on the **Lid sprite**.
+You're still working on the **lid sprite**.
 
-Add a `broadcast`{:class="block3events"} block set to a new message called `dumpling clicked`{:class="block3events"}.
+Send a new message called `dumpling clicked`{:class="block3events"} as the lid lifts.
 
 ```blocks3
 when this sprite clicked
@@ -19,5 +19,7 @@ glide (1) secs to x: (0) y: (0)
 > [!TIP]
 >
 > Click the drop-down on the `broadcast`{:class="block3events"} block and choose 'New message' to name it.
+>
+> ![PLACEHOLDER: naming a new message.](images/new-message.png){:width="250px"}
 
 The dumpling answers the message in the next step.

@@ -1,12 +1,16 @@
-## Make starfish clones
+## Make star clones
 
-Make copies of the starfish to shower over the dumpling.
+Make copies of the star to shower over the dumpling.
 
-![starfish sprite](images/star-sprite.png){:width="80px"}
+![star sprite](images/star-sprite.png){:width="80px"}
 
-Click on the **Starfish sprite**.
+## Step 1
 
-Add a `repeat`{:class="block3control"} loop with a `create clone of`{:class="block3control"} block and a `wait`{:class="block3control"} block inside.
+Click on the **star sprite**.
+
+## Step 2
+
+Make 15 copies of the star, one after another.
 
 ```blocks3
 when this sprite clicked
@@ -17,4 +21,4 @@ broadcast (stars v)
 +end
 ```
 
-The clones all sit on top of each other until you move them in the next steps.
+The copies all sit on top of each other until you move them in the next steps.

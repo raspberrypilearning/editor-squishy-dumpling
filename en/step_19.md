@@ -1,23 +1,25 @@
-## Lift the lid for the starfish
+## Lift the lid for the star
 
-Make the lid join in for the starfish shower as well.
+Make the lid join in for the star shower as well.
 
 ![lid sprite](images/lid-sprite.png){:width="80px"}
 
 ## Step 1
 
-Click on the **Lid sprite**.
+Click on the **lid sprite**.
 
-Add a `when I receive`{:class="block3events"} block set to `stars`{:class="block3events"}, and a `glide`{:class="block3motion"} block.
+## Step 2
+
+Make the lid glide up when the message arrives.
 
 ```blocks3
 +when I receive [stars v]
 +glide (1) secs to x: (65) y: (120)
 ```
 
-## Step 2
+## Step 3
 
-Bring the lid back down with a `wait`{:class="block3control"} block and a second `glide`{:class="block3motion"} block.
+Let the lid wait, then glide back down.
 
 ```blocks3
 when I receive [stars v]
@@ -28,6 +30,6 @@ glide (1) secs to x: (65) y: (120)
 
 ## Now run your code
 
-Click on the **Starfish**.
+Click on the **star**. Check that the lid lifts while the dumpling spins and the stars fly.
 
-Check that the lid lifts while the dumpling spins and the starfish fly.
+![PLACEHOLDER: the lid lifts as the dumpling spins and the stars fly.](images/step-19.gif){:width="450px"}

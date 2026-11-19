@@ -24,7 +24,7 @@ Pick a squishy sound from the library.
 
 ## Step 4
 
-In the **Code** tab, add a `start sound`{:class="block3sound"} block and choose your sound.
+Back in the **Code** tab, play your sound as the squash starts.
 
 ```blocks3
 when I receive [dumpling clicked v]
@@ -33,11 +33,11 @@ repeat (15)
 next costume
 wait (0.1) seconds
 end
-switch costume to (7 v)
+switch costume to (costume 1 v)
 ```
 
 ## Now run your code
 
-Click on the **Lid**.
+Click on the **lid**. Check that your sound plays while the dumpling squashes.
 
-Check that your sound plays while the dumpling squashes.
+![PLACEHOLDER: the dumpling squashes with a sound.](images/step-5.gif){:width="450px"}

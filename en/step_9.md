@@ -4,9 +4,9 @@ Play a sound while the colours change.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
-You're still working on the **Dumpling sprite**.
+You're still working on the **dumpling sprite**.
 
-Add a `start sound`{:class="block3sound"} block to the top of the rainbow script and choose a sound.
+Play a sound as the colours start to change.
 
 ```blocks3
 when I receive [rainbow v]
@@ -24,6 +24,6 @@ set [color v] effect to (0)
 
 ## Now run your code
 
-Click on the **Rainbow**.
+Click on the **rainbow**. Check that your sound plays while the colours change.
 
-Check that your sound plays while the colours change.
+![PLACEHOLDER: the dumpling changes colour with a sound.](images/step-9.gif){:width="450px"}

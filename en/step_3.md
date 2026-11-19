@@ -6,9 +6,11 @@ Squash the dumpling by swapping between its costumes.
 
 ## Step 1
 
-Click on the **Dumpling sprite**.
+Click on the **dumpling sprite**.
 
-Add a `when I receive`{:class="block3events"} block set to `dumpling clicked`{:class="block3events"}, and a `repeat`{:class="block3control"} loop with a `next costume`{:class="block3looks"} block inside.
+## Step 2
+
+Swap the dumpling's costumes 15 times when the message arrives.
 
 ```blocks3
 +when I receive [dumpling clicked v]
@@ -17,9 +19,9 @@ Add a `when I receive`{:class="block3events"} block set to `dumpling clicked`{:c
 +end
 ```
 
-## Step 2
+## Step 3
 
-Slow the squash down with a `wait`{:class="block3control"} block inside the loop.
+Slow the swap down.
 
 ```blocks3
 when I receive [dumpling clicked v]
@@ -31,6 +33,6 @@ end
 
 ## Now run your code
 
-Click on the **Lid**.
+Click on the **lid**. Check that the dumpling squashes and stretches.
 
-Check that the dumpling squashes and stretches.
+![PLACEHOLDER: the dumpling squashes and stretches when the lid is clicked.](images/step-3.gif){:width="450px"}

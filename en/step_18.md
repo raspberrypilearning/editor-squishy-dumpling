@@ -1,14 +1,14 @@
 ## Send the clones flying
 
-Scatter the clones across the stage.
+Scatter the copies across the stage.
 
-![starfish sprite](images/star-sprite.png){:width="80px"}
+![star sprite](images/star-sprite.png){:width="80px"}
 
-You're still working on the **Starfish sprite**.
+You're still working on the **star sprite**.
 
 ## Step 1
 
-Add a `glide to`{:class="block3motion"} block set to 'random position'.
+Send each copy gliding to a random spot.
 
 ```blocks3
 set size to (pick random (50) to (100)) %
@@ -18,7 +18,7 @@ show
 
 ## Step 2
 
-Tidy each clone away afterwards with a `delete this clone`{:class="block3control"} block.
+Tidy each copy away when it gets there.
 
 ```blocks3
 show
@@ -28,6 +28,6 @@ glide (0.8) secs to (random position v)
 
 ## Now run your code
 
-Click on the **Starfish**.
+Click on the **star**. Check that the stars fly out across the stage and disappear.
 
-Check that the starfish fly out across the stage and disappear.
+![PLACEHOLDER: stars fly out across the stage and disappear.](images/step-18.gif){:width="450px"}
