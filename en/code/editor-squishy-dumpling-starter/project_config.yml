@@ -1,0 +1,4 @@
+name: "Squishy dumpling"
+identifier: "editor-squishy-dumpling-starter"
+type: 'code_editor_scratch'
+build: true

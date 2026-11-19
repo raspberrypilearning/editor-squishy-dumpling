@@ -1,14 +1,33 @@
-title: Project title in sentence case
+title: Squishy dumpling
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a dumpling that squashes, changes colour and spins when you click
 listed: false
 pdf: false
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: Lift the lid
     completion:
-      - engaged      
-  - title: Challenge
+      - engaged
+  - title: Tell the dumpling
+  - title: Squash the dumpling
+  - title: Back to a smile
+  - title: Add a squishy sound
+  - title: Add a rainbow button
+  - title: Change colour
+  - title: Back to yellow
+  - title: Add a rainbow sound
+  - title: Lift the lid for the rainbow
+  - title: Add a starfish button
+  - title: Spin the dumpling
+  - title: Face the front again
+  - title: Add a spinning sound
+  - title: Make starfish clones
+  - title: Set up each clone
+  - title: Make every clone different
+  - title: Send the clones flying
+  - title: Lift the lid for the starfish
+    completion:
+      - internal
+  - title: Challenges
     challenge: true
     completion:
       - external
