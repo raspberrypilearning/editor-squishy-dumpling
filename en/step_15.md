@@ -21,4 +21,8 @@ broadcast (stars v)
 +end
 ```
 
-The copies all sit on top of each other until you move them in the next steps.
+## Now run your code
+
+Click on the **star**. Check that a pile of copies builds up on top of the button.
+
+![PLACEHOLDER: copies of the star pile up on the button.](images/step-15.gif){:width="450px"}

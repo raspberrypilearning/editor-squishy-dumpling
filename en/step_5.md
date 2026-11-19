@@ -1,33 +1,15 @@
-## Add a squishy sound
+## Play your sound
 
-Play a sound while the dumpling is squashed.
+Make your recording play while the dumpling is squashed.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
-## Step 1
-
-Open the **Sounds** tab.
-
-![The Sounds tab.](images/sounds-tab.png){:width="450px"}
-
-## Step 2
-
-Click **Choose a Sound**.
-
-![Choosing a sound.](images/sounds-choose.png){:width="250px"}
-
-## Step 3
-
-Pick a squishy sound from the library.
-
-![The Choose a Sound library.](images/sounds-list.png){:width="450px"}
-
-## Step 4
+You're still working on the **dumpling sprite**.
 
 Back in the **Code** tab, play your sound as the squash starts.
 
 ```blocks3
-when I receive [dumpling clicked v]
+when I receive [lid clicked v]
 +start sound (squishy v)
 repeat (15)
 next costume

@@ -8,10 +8,10 @@ steps:
   - title: Lift the lid
     completion:
       - engaged
-  - title: Tell the dumpling
-  - title: Squash the dumpling
-  - title: Back to a smile
-  - title: Add a squishy sound
+  - title: Animate the dumpling
+  - title: Record a squishy sound
+  - title: Edit your sound
+  - title: Play your sound
   - title: Add a rainbow button
   - title: Change colour
   - title: Back to yellow

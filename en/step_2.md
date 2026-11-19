@@ -1,25 +1,45 @@
-## Tell the dumpling
+## Animate the dumpling
 
-Send a message so the dumpling knows the lid has been lifted.
+Make the dumpling look like it is being squished by swapping between its costumes.
 
-![lid sprite](images/lid-sprite.png){:width="80px"}
+## Step 1
 
-You're still working on the **lid sprite**.
+Click on the **dumpling sprite**.
 
-Send a new message called `dumpling clicked`{:class="block3events"} as the lid lifts.
+![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
+
+## Step 2
+
+
+Slow the swap down.
 
 ```blocks3
-when this sprite clicked
-+broadcast (dumpling clicked v)
-glide (1) secs to x: (65) y: (120)
-wait (1) seconds
-glide (1) secs to x: (0) y: (0)
+when I receive [lid clicked v]
+repeat (15)
+next costume
+wait (0.1) seconds
+end
 ```
 
 > [!TIP]
 >
-> Click the drop-down on the `broadcast`{:class="block3events"} block and choose 'New message' to name it.
->
-> ![PLACEHOLDER: naming a new message.](images/new-message.png){:width="250px"}
+> Play with the number of repeats to make the animation longer or shorter.
 
-The dumpling answers the message in the next step.
+## Step 3
+
+Go back to the smiling costume at the end.
+
+```blocks3
+when I receive [lid clicked v]
+repeat (15)
+next costume
+wait (0.1) seconds
+end
++switch costume to (costume 1 v)
+```
+
+## Now run your code
+
+Click on the **lid**. Check that the dumpling squashes and stretches.
+
+![PLACEHOLDER: the dumpling squashes and stretches when the lid is clicked.](images/step-2.gif){:width="450px"}

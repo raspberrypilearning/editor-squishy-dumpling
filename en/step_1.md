@@ -30,6 +30,24 @@ glide (1) secs to x: (65) y: (120)
 +glide (1) secs to x: (0) y: (0)
 ```
 
+## Step 4
+
+Send a new message called `lid clicked`{:class="block3events"} as the lid lifts, ready for the dumpling to answer.
+
+```blocks3
+when this sprite clicked
++broadcast (lid clicked v)
+glide (1) secs to x: (65) y: (120)
+wait (1) seconds
+glide (1) secs to x: (0) y: (0)
+```
+
+> [!TIP]
+>
+> Click the drop-down on the `broadcast`{:class="block3events"} block and choose 'New message' to name it.
+>
+> ![PLACEHOLDER: naming a new message.](images/new-message.png){:width="250px"}
+
 ## Now run your code
 
 Click on the **lid**. Check that it lifts up and settles back down.

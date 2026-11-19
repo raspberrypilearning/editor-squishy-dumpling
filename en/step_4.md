@@ -1,24 +1,23 @@
-## Back to a smile
+## Edit your sound
 
-Finish on the same costume every time, so the dumpling always ends up smiling.
+Change how your recording sounds, then give it a name you will recognise.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
 You're still working on the **dumpling sprite**.
 
-Go back to the smiling costume at the end.
+## Step 1
 
-```blocks3
-when I receive [dumpling clicked v]
-repeat (15)
-next costume
-wait (0.1) seconds
-end
-+switch costume to (costume 1 v)
-```
+Try the buttons under your sound to make it faster, slower, louder or softer.
+
+![The sound editor buttons.](images/edit-sound.png){:width="450px"}
+
+## Step 2
+
+Rename your sound 'squishy'.
+
+![The sound name box.](images/rename-sound.png){:width="250px"}
 
 ## Now run your code
 
-Click on the **lid**. Check that the dumpling goes back to its smiling costume at the end.
-
-![PLACEHOLDER: the dumpling ends on its smiling costume.](images/step-4.gif){:width="450px"}
+Click **Play**. Check that your sound has changed.
