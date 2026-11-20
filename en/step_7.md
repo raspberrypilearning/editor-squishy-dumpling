@@ -33,7 +33,7 @@ Add the `go to x: y:`{:class="block3motion"} position in blocks, so the button s
 
 ## Step 4
 
-Send a new message called `rainbow`{:class="block3events"} when the rainbow is clicked.
+Send a new message called when the rainbow is clicked.
 
 ```blocks3
 +when this sprite clicked
@@ -41,9 +41,9 @@ Send a new message called `rainbow`{:class="block3events"} when the rainbow is c
 ```
 > [!TIP]
 >
-> Name the new message 'rainbow'
+> Click on the drop-down arrow and name the new message 'rainbow'
 >
-> ![The New Message window with 'rainbow' typed as the message name.](images/new-message.png){:width="450px"}
+> ![The New Message window with 'rainbow' typed as the message name.](images/new-message-rainbow.png){:width="450px"}
 
 ![The dumpling flashes through different colours.](images/step7.png){:width="450px"}
 

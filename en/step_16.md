@@ -1,16 +1,12 @@
-## Make star clones
+## Make lots of stars
 
-Make copies of the star to shower over the dumpling.
+Make the star clones look like they are coming from the dumpling.
 
 ![star sprite](images/star-sprite.png){:width="80px"}
 
-## Step 1
+You're still working on the **star sprite**.
 
-Click on the **star sprite**.
-
-## Step 2
-
-Make 15 copies of the star, one after another.
+Put the `create clone of`{:class="block3control"} block in a loop so that it makes lots of clones when the star is clicked.
 
 ```blocks3
 when this sprite clicked
@@ -21,8 +17,14 @@ wait (0.1) seconds
 +end
 ```
 
+> [!TIP]
+>
+> Experiment with the number of repeats to make more stars.
+>
+> Try a different `wait`{:class="block3control"} time to change how quickly the stars come.
+
 ## Now run your code
 
-Click on the **star**. Check that a pile of copies builds up on top of the button.
+Click on the **star**. Check that lots of star clones glide away from the dumpling.
 
-![Copies of the star pile up on the button.](images/step-16.gif){:width="450px"}
+![Lots of star clones glide away from the dumpling.](images/step-16.gif){:width="450px"}

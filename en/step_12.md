@@ -1,26 +1,23 @@
 ## Add a star button
 
-Add a second button for a shower of stars.
+Add a second button for the stars.
 
 ![star sprite](images/star-sprite.png){:width="80px"}
 
 ## Step 1
 
-Choose the **star sprite** from the sprite library.
+Click **Choose a Sprite**.
 
-![Choosing the star sprite from the library.](images/star-choose.png){:width="450px"}
+![Choosing a sprite.](images/sprite-choose.png){:width="250px"}
 
 ## Step 2
 
-Drag it to the bottom right of the stage.
+Choose the **star sprite** from the sprite library.
+
+![Choosing the star sprite from the library.](images/star-library.png){:width="450px"}
 
 ## Step 3
 
-Send a new message called `stars`{:class="block3events"} when the star is clicked.
+Resize the star using the paint tools.
 
-```blocks3
-+when this sprite clicked
-+broadcast (stars v)
-```
-
-The dumpling answers the message in the next step.
+![The star is selected in the paint editor and dragged to a bigger size.](images/resize-star.gif){:width="450px"}

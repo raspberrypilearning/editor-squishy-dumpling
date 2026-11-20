@@ -1,24 +1,29 @@
-## Back to yellow
+## Record a rainbow sound
 
-Set the colour back to normal at the end, so the dumpling starts yellow every time.
+Make and edit a rainbow sound.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
 You're still working on the **dumpling sprite**.
 
-Clear the colour when the flashing stops.
+## Step 1
 
-```blocks3
-when I receive [rainbow v]
-repeat (15)
-change [color v] effect by (pick random (20) to (30))
-wait (0.1) seconds
-end
-+set [color v] effect to (0)
-```
+Open the **Sounds** tab.
+
+![The Sounds tab.](images/sounds-tab.png){:width="450px"}
+
+## Step 2
+
+Record a new sound for the rainbow.
+
+![The Record option in the Add a Sound menu.](images/record.png){:width="250px"}
+
+## Step 3
+
+Edit the sound with the buttons underneath it.
+
+![The sound editor buttons.](images/edit-sound.png){:width="450px"}
 
 ## Now run your code
 
-Click on the **rainbow**. Check that the dumpling is yellow again at the end.
-
-![The dumpling returns to yellow.](images/step-10.gif){:width="450px"}
+Click **Play**. Check that you can hear your new sound.

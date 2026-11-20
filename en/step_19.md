@@ -1,33 +1,24 @@
-## Send the clones flying
+## Delete the clones
 
-Scatter the copies across the stage.
+Delete each clone so they disappear.
 
 ![star sprite](images/star-sprite.png){:width="80px"}
 
 You're still working on the **star sprite**.
 
-## Step 1
-
-Send each copy gliding to a random spot.
+Delete each clone when it finishes gliding.
 
 ```blocks3
+when I start as a clone
+change [color v] effect by (pick random (0) to (255))
 set size to (pick random (50) to (100)) %
-show
-+glide (0.8) secs to (random position v)
-```
-
-## Step 2
-
-Tidy each copy away when it gets there.
-
-```blocks3
-show
-glide (0.8) secs to (random position v)
+go to (dumpling v)
+glide (0.7) secs to (random position v)
 +delete this clone
 ```
 
 ## Now run your code
 
-Click on the **star**. Check that the stars fly out across the stage and disappear.
+Click on the **star**. Check that each star disappears when it stops gliding.
 
-![Stars fly out across the stage and disappear.](images/step-19.gif){:width="450px"}
+![Each star clone disappears when it stops gliding.](images/step-19.gif){:width="450px"}

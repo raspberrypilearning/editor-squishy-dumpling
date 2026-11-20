@@ -1,25 +1,23 @@
-## Challenges
+## Face the front again
 
-Make the dumpling your own.
+Finish the spin facing forwards, so the dumpling is never left on its side.
 
-## Set the scene
+![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
-Choose a new backdrop for the stage from the library, or paint a kitchen of your own.
+You're still working on the **dumpling sprite**.
 
-![The dumpling on a new backdrop.](images/challenge.png){:width="450px"}
+Point the dumpling the right way up when the spin ends.
 
-## Add another button
+```blocks3
+when I receive [stars v]
+repeat (85)
+turn cw (15) degrees
+end
++point in direction (90)
+```
 
-Add a third sprite with its own message, and give the dumpling a new reaction to go with it.
+## Now run your code
 
-## Change the mood
+Click on the **star**. Check that the dumpling is upright at the end of the spin.
 
-Swap the dumpling's costumes for ones you draw yourself, so it pulls a different face when the lid is clicked.
-
-## Make a chorus
-
-Add a sound to the lid as well, so it plays every time the lid lifts.
-
-## Fill the stage
-
-Raise the number of clones the star makes, and change the glide time to send them further.
+![The dumpling ends the spin upright.](images/step-21.gif){:width="450px"}

@@ -1,38 +1,33 @@
-## Add a spinning sound
+## Make a star clone
 
-Play a sound for as long as the spin lasts.
+Make a clone of the star above the dumpling.
 
-![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
+![star sprite](images/star-sprite.png){:width="80px"}
 
-You're still working on the **dumpling sprite**.
+You're still working on the **star sprite**.
 
 ## Step 1
 
-Play a sound as the spin starts.
+Make a clone of the star when it is clicked.
 
 ```blocks3
-when I receive [stars v]
-+start sound (Whoop2 v)
-repeat (85)
-turn cw (15) degrees
-end
-point in direction (90)
+when this sprite clicked
+broadcast (stars v)
++create clone of (myself v)
 ```
 
 ## Step 2
 
-Cut the sound off when the spin ends.
+When the clone starts, move it to the dumpling, then glide.
 
 ```blocks3
-repeat (85)
-turn cw (15) degrees
-end
-+stop all sounds
-point in direction (90)
++when I start as a clone
++go to (dumpling v)
++glide (0.7) secs to (random position v)
 ```
 
 ## Now run your code
 
-Click on the **star**. Check that your sound stops as soon as the dumpling stops spinning.
+Click on the **star**. Check that a star clone glides away from the dumpling.
 
-![The dumpling spins with a sound.](images/step-15.gif){:width="450px"}
+![A star clone glides away from the dumpling.](images/step-15.gif){:width="450px"}

@@ -1,23 +1,37 @@
-## Face the front again
+## Position the star
 
-Finish the spin facing forwards, so the dumpling is never left on its side.
+Move the star, then make it send a message when it is clicked.
 
-![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
+## Step 1
 
-You're still working on the **dumpling sprite**.
+Click on the **star sprite**.
 
-Point the dumpling the right way up when the spin ends.
+![star sprite](images/star-sprite.png){:width="80px"}
+
+## Step 2
+
+On the stage, drag the star to the right of the stage.
+
+## Step 3
+
+Position the star using the `go to x: y:`{:class="block3motion"} block.
 
 ```blocks3
-when I receive [stars v]
-repeat (85)
-turn cw (15) degrees
-end
-+point in direction (90)
++when green flag clicked
++go to x: (153) y: (-123)
+```
+
+## Step 4
+
+Send a new message called `stars`{:class="block3events"} when the star is clicked.
+
+```blocks3
++when this sprite clicked
++broadcast (stars v)
 ```
 
 ## Now run your code
 
-Click on the **star**. Check that the dumpling is upright at the end of the spin.
+Check that the **Star** is where you want it on the stage.
 
-![The dumpling ends the spin upright.](images/step-14.gif){:width="450px"}
+![The star sits on the right of the stage.](images/step13.png){:width="450px"}

@@ -16,17 +16,20 @@ steps:
   - title: Make it clickable
   - title: Lift the lid for the rainbow
   - title: Make a rainbow dumpling
-  - title: Back to yellow
-  - title: Add a rainbow sound
+  - title: Record a rainbow sound
+  - title: Add rainbow sound
   - title: Add a star button
+  - title: Lift the lid for the star
+  - title: Position the star
+  - title: Make a star clone
+  - title: Make lots of stars
+  - title: Style the stars
+  - title: Random styles
+  - title: Delete the clones
   - title: Spin the dumpling
   - title: Face the front again
-  - title: Add a spinning sound
-  - title: Make star clones
-  - title: Set up each clone
-  - title: Make every clone different
-  - title: Send the clones flying
-  - title: Lift the lid for the star
+  - title: Find a spinning sound
+  - title: Add spin sound block
     completion:
       - internal
   - title: Challenges

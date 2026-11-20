@@ -1,35 +1,30 @@
-## Lift the lid for the star
+## Spin the dumpling
 
-Make the lid join in for the star shower as well.
-
-![lid sprite](images/lid-sprite.png){:width="80px"}
+Make the dumpling spin around with the stars.
 
 ## Step 1
 
-Click on the **lid sprite**.
+Click on the **dumpling sprite**.
+
+![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
 ## Step 2
 
-Make the lid glide up when the message arrives.
+Turn the dumpling 85 times when the message arrives.
 
 ```blocks3
 +when I receive [stars v]
-+glide (1) secs to x: (65) y: (120)
++repeat (85)
+turn cw (15) degrees
++end
 ```
 
-## Step 3
-
-Let the lid wait, then glide back down.
-
-```blocks3
-when I receive [stars v]
-glide (1) secs to x: (65) y: (120)
-+wait (1) seconds
-+glide (1) secs to x: (0) y: (0)
-```
+> [!TIP]
+>
+> Experiment with how many times and how far the dumpling turns to get the spin effect you want.
 
 ## Now run your code
 
-Click on the **star**. Check that the lid lifts while the dumpling spins and the stars fly.
+Click on the **star**. Check that the dumpling spins round.
 
-![The lid lifts as the dumpling spins and the stars fly.](images/step-20.gif){:width="450px"}
+![The dumpling spins round.](images/step-20.gif){:width="450px"}

@@ -28,5 +28,3 @@ switch costume to (costume 1 v)
 ## Now run your code
 
 Click on the **lid**. Check that your sound plays while the dumpling animates.
-
-![The dumpling animates with a sound.](images/step-5.gif){:width="450px"}

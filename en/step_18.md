@@ -1,36 +1,27 @@
-## Make every clone different
+## Random styles
 
-Give each copy its own colour and size, so no two are the same.
+Randomise the colour effect and size.
 
 ![star sprite](images/star-sprite.png){:width="80px"}
 
 You're still working on the **star sprite**.
 
-## Step 1
 
-Pick a random colour and size for each copy.
+Make the colour and size random with `pick random`{:class="block3operators"} blocks.
 
 ```blocks3
 when I start as a clone
-hide
-go to [back v] layer
-go to (dumpling v)
 +change [color v] effect by (pick random (0) to (255))
 +set size to (pick random (50) to (100)) %
+go to (dumpling v)
+glide (0.7) secs to (random position v)
 ```
+>
+> You can try other effects by clicking the 'color' drop-down menu.
 
-## Step 2
-
-Bring the copy into view.
-
-```blocks3
-change [color v] effect by (pick random (0) to (255))
-set size to (pick random (50) to (100)) %
-+show
-```
 
 ## Now run your code
 
-Click on the **star**. Check that a pile of different stars appears behind the dumpling.
+Click on the **star**. Check that each star clone is a rand colour and size.
 
-![A pile of different stars appears behind the dumpling.](images/step-18.gif){:width="450px"}
+![Star clones of different colours and sizes glide away from the dumpling.](images/step-18.gif){:width="450px"}
