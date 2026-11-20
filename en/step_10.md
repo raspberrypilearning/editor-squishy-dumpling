@@ -24,6 +24,5 @@ Edit the sound with the buttons underneath it.
 
 ![The sound editor buttons.](images/edit-sound.png){:width="450px"}
 
-## Now run your code
 
-Click **Play**. Check that you can hear your new sound.
+**Test:** Click **Play**. Check that you can hear your new sound.

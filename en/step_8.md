@@ -14,10 +14,9 @@ Add the glide blocks when the rainbow message is received.
 
 ```blocks3
 + when I receive [rainbow v]
-glide (1) secs to x: (65) y: (120)
-wait (1) seconds
-glide (1) secs to x: (0) y: (0)
-+end
++glide (1) secs to x: (65) y: (120)
++wait (1) seconds
++glide (1) secs to x: (0) y: (0)
 ```
 
 > [!TIP]

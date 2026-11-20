@@ -24,6 +24,4 @@ Choose a spinning sound from the library.
 
 ![The Choose a Sound library.](images/sounds-list.png){:width="450px"}
 
-## Now run your code
-
-Click **Play**. Check that you can hear your spinning sound.
+**Test:** Click **Play**. Check that you can hear your spinning sound.

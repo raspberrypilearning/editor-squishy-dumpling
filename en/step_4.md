@@ -24,6 +24,4 @@ Rename your sound.
 
 ![The sound name box named 'squishy'.](images/rename-sound.png){:width="250px"}
 
-## Now run your code
-
-Click **Play**. Check that your sound has changed.
+**Test:** Click **Play**. Check that your sound has changed.

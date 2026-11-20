@@ -36,6 +36,4 @@ Click **Save** to keep your recording.
 
 ![The recorded sound with the Re-record and Save buttons.](images/save-rerecord.png){:width="450px"}
 
-## Now run your code
-
-Click **Play**. Check that you can hear your sound.
+**Test:** Click **Play**. Check that you can hear your sound.

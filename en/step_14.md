@@ -1,37 +1,37 @@
-## Position the star
+## Lift the lid for the star
 
-Move the star, then make it send a message when it is clicked.
+Make the lid move when the star is clicked.
+
+![lid sprite](images/lid-sprite.png){:width="80px"}
 
 ## Step 1
 
-Click on the **star sprite**.
-
-![star sprite](images/star-sprite.png){:width="80px"}
+Click on the **lid sprite**.
 
 ## Step 2
 
-On the stage, drag the star to the right of the stage.
+Make the lid glide up when it receives the `stars`{:class="block3events"} message.
+
+```blocks3
++when I receive [stars v]
++glide (1) secs to x: (65) y: (120)
+```
+
+![The when I receive rainbow script is duplicated, and the message is changed to stars.](images/star-lid.gif){:width="450px"}
 
 ## Step 3
 
-Position the star using the `go to x: y:`{:class="block3motion"} block.
+Make the lid wait, then glide back down.
 
 ```blocks3
-+when green flag clicked
-+go to x: (153) y: (-123)
-```
-
-## Step 4
-
-Send a new message called `stars`{:class="block3events"} when the star is clicked.
-
-```blocks3
-+when this sprite clicked
-+broadcast (stars v)
+when I receive [stars v]
+glide (1) secs to x: (65) y: (120)
++wait (1) seconds
++glide (1) secs to x: (0) y: (0)
 ```
 
 ## Now run your code
 
-Check that the **Star** is where you want it on the stage.
+Click on the **star**. Check that the lid glides up, then glides back down.
 
-![The star sits on the right of the stage.](images/step13.png){:width="450px"}
+![The lid glides up, then glides back down, when the star is clicked.](images/step-14.gif){:width="450px"}
