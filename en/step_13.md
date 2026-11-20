@@ -23,4 +23,4 @@ turn cw (15) degrees
 
 Click on the **star**. Check that the dumpling spins round.
 
-![PLACEHOLDER: the dumpling spins round.](images/step-13.gif){:width="450px"}
+![The dumpling spins round.](images/step-13.gif){:width="450px"}

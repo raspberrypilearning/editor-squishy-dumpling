@@ -46,4 +46,4 @@ glide (1) secs to x: (0) y: (0)
 
 Click on the **lid**. Check that it lifts up and settles back down.
 
-![PLACEHOLDER: the lid lifts up and settles back down.](images/step-1.gif){:width="450px"}
+![The lid lifts up and settles back down.](images/step-1.gif){:width="450px"}

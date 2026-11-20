@@ -25,4 +25,4 @@ wait (0.1) seconds
 
 Click on the **star**. Check that a pile of copies builds up on top of the button.
 
-![PLACEHOLDER: copies of the star pile up on the button.](images/step-16.gif){:width="450px"}
+![Copies of the star pile up on the button.](images/step-16.gif){:width="450px"}

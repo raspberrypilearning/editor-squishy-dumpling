@@ -33,4 +33,4 @@ set size to (pick random (50) to (100)) %
 
 Click on the **star**. Check that a pile of different stars appears behind the dumpling.
 
-![PLACEHOLDER: a pile of different stars appears behind the dumpling.](images/step-18.gif){:width="450px"}
+![A pile of different stars appears behind the dumpling.](images/step-18.gif){:width="450px"}

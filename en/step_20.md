@@ -32,4 +32,4 @@ glide (1) secs to x: (65) y: (120)
 
 Click on the **star**. Check that the lid lifts while the dumpling spins and the stars fly.
 
-![PLACEHOLDER: the lid lifts as the dumpling spins and the stars fly.](images/step-20.gif){:width="450px"}
+![The lid lifts as the dumpling spins and the stars fly.](images/step-20.gif){:width="450px"}

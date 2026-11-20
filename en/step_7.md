@@ -24,16 +24,12 @@ Click on the **Code** tab.
 
 ## Step 3
 
-Add the `x: y:` position in blocks, so the button starts in the same place every time.
+Add the `go to x: y:`{:class="block3motion"} position in blocks, so the button starts in the same place every time.
 
 ```blocks3
 +when green flag clicked
-+go to x: (145) y: (-114)
++go to x: (-153) y: (-123)
 ```
-
-> [!TIP]
->
-> Scratch fills in the `x:` and `y:` values from where your sprite is, so your numbers will be different.
 
 ## Step 4
 
@@ -43,5 +39,11 @@ Send a new message called `rainbow`{:class="block3events"} when the rainbow is c
 +when this sprite clicked
 +broadcast (rainbow v)
 ```
+> [!TIP]
+>
+> Name the new message 'rainbow'
+>
+> ![The New Message window with 'rainbow' typed as the message name.](images/new-message.png){:width="450px"}
 
-The dumpling answers the message in the next step.
+![The dumpling flashes through different colours.](images/step7.png){:width="450px"}
+

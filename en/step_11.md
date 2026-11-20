@@ -1,35 +1,29 @@
-## Lift the lid for the rainbow
+## Add a rainbow sound
 
-Make the lid join in whenever the rainbow is clicked.
+Play a sound while the colours change.
 
-![lid sprite](images/lid-sprite.png){:width="80px"}
+![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
-## Step 1
+You're still working on the **dumpling sprite**.
 
-Click on the **lid sprite**.
-
-## Step 2
-
-Make the lid glide up when the message arrives.
-
-```blocks3
-+when I receive [rainbow v]
-+glide (1) secs to x: (65) y: (120)
-```
-
-## Step 3
-
-Let the lid wait, then glide back down.
+Play a sound as the colours start to change.
 
 ```blocks3
 when I receive [rainbow v]
-glide (1) secs to x: (65) y: (120)
-+wait (1) seconds
-+glide (1) secs to x: (0) y: (0)
++start sound (oh a rainbow v)
+repeat (15)
+change [color v] effect by (pick random (20) to (30))
+wait (0.1) seconds
+end
+set [color v] effect to (0)
 ```
+
+> [!TIP]
+>
+> Open the **Sounds** tab to add another sound from the library.
 
 ## Now run your code
 
-Click on the **rainbow**. Check that the lid lifts while the dumpling changes colour.
+Click on the **rainbow**. Check that your sound plays while the colours change.
 
-![PLACEHOLDER: the lid lifts as the dumpling changes colour.](images/step-11.gif){:width="450px"}
+![The dumpling changes colour with a sound.](images/step-11.gif){:width="450px"}

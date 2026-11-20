@@ -20,4 +20,4 @@ end
 
 Click on the **star**. Check that the dumpling is upright at the end of the spin.
 
-![PLACEHOLDER: the dumpling ends the spin upright.](images/step-14.gif){:width="450px"}
+![The dumpling ends the spin upright.](images/step-14.gif){:width="450px"}

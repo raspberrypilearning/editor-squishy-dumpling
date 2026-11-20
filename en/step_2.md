@@ -41,4 +41,4 @@ end
 
 Click on the **lid**. Check that the dumpling animates.
 
-![PLACEHOLDER: the dumpling animates when the lid is clicked.](images/step-2.gif){:width="450px"}
+![The dumpling animates when the lid is clicked.](images/step-2.gif){:width="450px"}

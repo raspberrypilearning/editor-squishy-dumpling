@@ -1,24 +1,49 @@
-## Back to yellow
+## Make a rainbow dumpling
 
-Set the colour back to normal at the end, so the dumpling starts yellow every time.
+Change the colours of the dumpling.
+
+
+## Step 1
+
+Click on the **dumpling sprite**.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
-You're still working on the **dumpling sprite**.
+## Step 2
 
-Clear the colour when the flashing stops.
+Look for when **rainbow** message arrives.
+
+```blocks3
+when I receive [rainbow v]
+```
+
+## Step 3
+
+Make the colour effect change, and repeat it.
+
+```blocks3
+when I receive [rainbow v]
++repeat (15)
+change [color v] effect by (25)
+wait (0.1) seconds
++end
+```
+
+## Step 4
+
+Clear the effect after the loop.
 
 ```blocks3
 when I receive [rainbow v]
 repeat (15)
-change [color v] effect by (pick random (20) to (30))
+change [color v] effect by (25)
 wait (0.1) seconds
 end
-+set [color v] effect to (0)
++clear graphic effects
 ```
 
 ## Now run your code
 
-Click on the **rainbow**. Check that the dumpling is yellow again at the end.
+Click on the **rainbow**. Check that the dumpling flashes through different colours.
 
-![PLACEHOLDER: the dumpling returns to yellow.](images/step-9.gif){:width="450px"}
+![The dumpling flashes through different colours.](images/step-9.gif){:width="450px"}

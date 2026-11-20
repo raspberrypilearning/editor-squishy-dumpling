@@ -6,7 +6,7 @@ Make the dumpling your own.
 
 Choose a new backdrop for the stage from the library, or paint a kitchen of your own.
 
-![PLACEHOLDER: the dumpling on a new backdrop.](images/challenge.png){:width="450px"}
+![The dumpling on a new backdrop.](images/challenge.png){:width="450px"}
 
 ## Add another button
 

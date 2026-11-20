@@ -8,11 +8,11 @@ Add a second button for a shower of stars.
 
 Choose the **star sprite** from the sprite library.
 
-![PLACEHOLDER: choosing the star sprite from the library.](images/star-choose.png){:width="450px"}
+![Choosing the star sprite from the library.](images/star-choose.png){:width="450px"}
 
 ## Step 2
 
-Drag it to the bottom left of the stage.
+Drag it to the bottom right of the stage.
 
 ## Step 3
 

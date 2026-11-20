@@ -30,4 +30,4 @@ glide (0.8) secs to (random position v)
 
 Click on the **star**. Check that the stars fly out across the stage and disappear.
 
-![PLACEHOLDER: stars fly out across the stage and disappear.](images/step-19.gif){:width="450px"}
+![Stars fly out across the stage and disappear.](images/step-19.gif){:width="450px"}

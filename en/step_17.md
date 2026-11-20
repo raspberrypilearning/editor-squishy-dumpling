@@ -30,4 +30,4 @@ hide
 
 Click on the **star**. Check that the copies no longer pile up on the button.
 
-![PLACEHOLDER: the copies no longer pile up on the button.](images/step-17.gif){:width="450px"}
+![The copies no longer pile up on the button.](images/step-17.gif){:width="450px"}

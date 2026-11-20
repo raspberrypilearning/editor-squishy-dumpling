@@ -35,4 +35,4 @@ point in direction (90)
 
 Click on the **star**. Check that your sound stops as soon as the dumpling stops spinning.
 
-![PLACEHOLDER: the dumpling spins with a sound.](images/step-15.gif){:width="450px"}
+![The dumpling spins with a sound.](images/step-15.gif){:width="450px"}

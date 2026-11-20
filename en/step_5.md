@@ -29,4 +29,4 @@ switch costume to (costume 1 v)
 
 Click on the **lid**. Check that your sound plays while the dumpling animates.
 
-![PLACEHOLDER: the dumpling animates with a sound.](images/step-5.gif){:width="450px"}
+![The dumpling animates with a sound.](images/step-5.gif){:width="450px"}
