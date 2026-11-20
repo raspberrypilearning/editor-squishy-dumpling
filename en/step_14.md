@@ -1,38 +1,23 @@
-## Add a spinning sound
+## Face the front again
 
-Play a sound for as long as the spin lasts.
+Finish the spin facing forwards, so the dumpling is never left on its side.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
 You're still working on the **dumpling sprite**.
 
-## Step 1
-
-Play a sound as the spin starts.
+Point the dumpling the right way up when the spin ends.
 
 ```blocks3
 when I receive [stars v]
-+start sound (Whoop2 v)
 repeat (85)
 turn cw (15) degrees
 end
-point in direction (90)
-```
-
-## Step 2
-
-Cut the sound off when the spin ends.
-
-```blocks3
-repeat (85)
-turn cw (15) degrees
-end
-+stop all sounds
-point in direction (90)
++point in direction (90)
 ```
 
 ## Now run your code
 
-Click on the **star**. Check that your sound stops as soon as the dumpling stops spinning.
+Click on the **star**. Check that the dumpling is upright at the end of the spin.
 
-![PLACEHOLDER: the dumpling spins with a sound.](images/step-14.gif){:width="450px"}
+![PLACEHOLDER: the dumpling ends the spin upright.](images/step-14.gif){:width="450px"}

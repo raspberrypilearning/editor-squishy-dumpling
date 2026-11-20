@@ -1,38 +1,47 @@
-## Change colour
+## Make it clickable
 
-Flash the dumpling through lots of colours.
+Move the sprite and set up the click.
 
-![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
+![rainbow sprite](images/rainbow-sprite.png){:width="80px"}
+
+Still working in the **rainbow sprite**.
 
 ## Step 1
 
-Click on the **dumpling sprite**.
+In the stage, position the rainbow where you want it.
+
+> [!TIP]
+>
+> You can change the stage to the large view.
+>
+> ![The stage in the large view, with the rainbow dragged into place in front of the dumpling.](images/rainbowtip.gif){:width="450px"}
 
 ## Step 2
 
-Change the dumpling's colour 15 times when the message arrives.
+Click on the **Code** tab.
 
-```blocks3
-+when I receive [rainbow v]
-+repeat (15)
-+change [color v] effect by (pick random (20) to (30))
-+end
-```
+![The Code tab.](images/code-tab.png){:width="450px"}
 
 ## Step 3
 
-Slow the colour change down.
+Add the `x: y:` position in blocks, so the button starts in the same place every time.
 
 ```blocks3
-when I receive [rainbow v]
-repeat (15)
-change [color v] effect by (pick random (20) to (30))
-+wait (0.1) seconds
-end
++when green flag clicked
++go to x: (145) y: (-114)
 ```
 
-## Now run your code
+> [!TIP]
+>
+> Scratch fills in the `x:` and `y:` values from where your sprite is, so your numbers will be different.
 
-Click on the **rainbow**. Check that the dumpling flashes through different colours.
+## Step 4
 
-![PLACEHOLDER: the dumpling flashes through different colours.](images/step-7.gif){:width="450px"}
+Send a new message called `rainbow`{:class="block3events"} when the rainbow is clicked.
+
+```blocks3
++when this sprite clicked
++broadcast (rainbow v)
+```
+
+The dumpling answers the message in the next step.

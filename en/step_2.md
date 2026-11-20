@@ -1,6 +1,6 @@
 ## Animate the dumpling
 
-Make the dumpling look like it is being squished by swapping between its costumes.
+Animate the dumpling by swapping between its costumes.
 
 ## Step 1
 
@@ -10,15 +10,14 @@ Click on the **dumpling sprite**.
 
 ## Step 2
 
-
-Slow the swap down.
+Make the dumpling swap costumes when it gets the `lid`{:class="block3events"} message.
 
 ```blocks3
-when I receive [lid v]
-repeat (15)
++when I receive [lid v]
++repeat (15)
 next costume
 wait (0.1) seconds
-end
++end
 ```
 
 > [!TIP]
@@ -27,7 +26,7 @@ end
 
 ## Step 3
 
-Go back to the smiling costume at the end.
+Go back to the first costume at the end.
 
 ```blocks3
 when I receive [lid v]
@@ -40,6 +39,6 @@ end
 
 ## Now run your code
 
-Click on the **lid**. Check that the dumpling squashes and stretches.
+Click on the **lid**. Check that the dumpling animates.
 
-![PLACEHOLDER: the dumpling squashes and stretches when the lid is clicked.](images/step-2.gif){:width="450px"}
+![PLACEHOLDER: the dumpling animates when the lid is clicked.](images/step-2.gif){:width="450px"}

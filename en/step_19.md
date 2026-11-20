@@ -1,35 +1,33 @@
-## Lift the lid for the star
+## Send the clones flying
 
-Make the lid join in for the star shower as well.
+Scatter the copies across the stage.
 
-![lid sprite](images/lid-sprite.png){:width="80px"}
+![star sprite](images/star-sprite.png){:width="80px"}
+
+You're still working on the **star sprite**.
 
 ## Step 1
 
-Click on the **lid sprite**.
+Send each copy gliding to a random spot.
+
+```blocks3
+set size to (pick random (50) to (100)) %
+show
++glide (0.8) secs to (random position v)
+```
 
 ## Step 2
 
-Make the lid glide up when the message arrives.
+Tidy each copy away when it gets there.
 
 ```blocks3
-+when I receive [stars v]
-+glide (1) secs to x: (65) y: (120)
-```
-
-## Step 3
-
-Let the lid wait, then glide back down.
-
-```blocks3
-when I receive [stars v]
-glide (1) secs to x: (65) y: (120)
-+wait (1) seconds
-+glide (1) secs to x: (0) y: (0)
+show
+glide (0.8) secs to (random position v)
++delete this clone
 ```
 
 ## Now run your code
 
-Click on the **star**. Check that the lid lifts while the dumpling spins and the stars fly.
+Click on the **star**. Check that the stars fly out across the stage and disappear.
 
-![PLACEHOLDER: the lid lifts as the dumpling spins and the stars fly.](images/step-19.gif){:width="450px"}
+![PLACEHOLDER: stars fly out across the stage and disappear.](images/step-19.gif){:width="450px"}

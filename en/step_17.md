@@ -1,6 +1,6 @@
-## Make every clone different
+## Set up each clone
 
-Give each copy its own colour and size, so no two are the same.
+Hide each copy behind the dumpling until it is ready to appear.
 
 ![star sprite](images/star-sprite.png){:width="80px"}
 
@@ -8,29 +8,26 @@ You're still working on the **star sprite**.
 
 ## Step 1
 
-Pick a random colour and size for each copy.
+Hide each new copy as it is made.
 
 ```blocks3
-when I start as a clone
-hide
-go to [back v] layer
-go to (dumpling v)
-+change [color v] effect by (pick random (0) to (255))
-+set size to (pick random (50) to (100)) %
++when I start as a clone
++hide
 ```
 
 ## Step 2
 
-Bring the copy into view.
+Move it behind the **dumpling**.
 
 ```blocks3
-change [color v] effect by (pick random (0) to (255))
-set size to (pick random (50) to (100)) %
-+show
+when I start as a clone
+hide
++go to [back v] layer
++go to (dumpling v)
 ```
 
 ## Now run your code
 
-Click on the **star**. Check that a pile of different stars appears behind the dumpling.
+Click on the **star**. Check that the copies no longer pile up on the button.
 
-![PLACEHOLDER: a pile of different stars appears behind the dumpling.](images/step-17.gif){:width="450px"}
+![PLACEHOLDER: the copies no longer pile up on the button.](images/step-17.gif){:width="450px"}

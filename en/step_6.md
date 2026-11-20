@@ -1,26 +1,25 @@
 ## Add a rainbow button
 
-Add a button the player can click for a rainbow effect.
-
-![rainbow sprite](images/rainbow-sprite.png){:width="80px"}
+Make a new sprite to use as a button.
 
 ## Step 1
 
-Choose the **rainbow sprite** from the sprite library.
+Click **Choose a Sprite**.
 
-![PLACEHOLDER: choosing the rainbow sprite from the library.](images/rainbow-choose.png){:width="450px"}
+![Choosing a sprite.](images/sprite-choose.png){:width="250px"}
 
 ## Step 2
 
-Drag it to the bottom right of the stage.
+Choose the **rainbow sprite** from the sprite library.
 
-## Step 3
+![The Rainbow sprite in the sprite library.](images/choose-rainbow.png){:width="450px"}
 
-Send a new message called `rainbow`{:class="block3events"} when the rainbow is clicked.
+> [!TIP]
+>
+> Type 'rainbow' into the search bar to find it quickly.
+>
+> ![Searching the sprite library for the rainbow.](images/rainbow-type.png){:width="450px"}
 
-```blocks3
-+when this sprite clicked
-+broadcast (rainbow v)
-```
+## Now run your code
 
-The dumpling answers the message in the next step.
+Check that the **rainbow** appears on the stage.

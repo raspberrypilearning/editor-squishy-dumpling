@@ -1,6 +1,6 @@
 ## Edit your sound
 
-Change how your recording sounds, then give it a name you will recognise.
+Speed your sound up to make it higher pitched.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
@@ -8,15 +8,21 @@ You're still working on the **dumpling sprite**.
 
 ## Step 1
 
-Try the buttons under your sound to make it faster, slower, louder or softer.
+Click **Faster** to make your sound higher pitched.
 
-![The sound editor buttons.](images/edit-sound.png){:width="450px"}
+![The sound being made faster in the sound editor.](images/faster.gif){:width="450px"}
+
+> [!TIP]
+>
+> Click **Copy to New** to keep this version of your sound and carry on editing a copy.
+>
+> ![The Copy to New button.](images/copy-to-new.png){:width="250px"}
 
 ## Step 2
 
-Rename your sound 'squishy'.
+Rename your sound.
 
-![The sound name box.](images/rename-sound.png){:width="250px"}
+![The sound name box named 'squishy'.](images/rename-sound.png){:width="250px"}
 
 ## Now run your code
 

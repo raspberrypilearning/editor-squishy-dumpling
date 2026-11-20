@@ -2,7 +2,7 @@
 
 Make a dumpling that reacts when you click on it!
 
-Lift the lid to squash the dumpling, then add buttons that make it change colour and spin.
+Lift the lid to animate the dumpling, then add buttons that make it change colour and spin.
 
 Click the **Green Flag** to play:
 

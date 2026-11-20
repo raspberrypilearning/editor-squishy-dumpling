@@ -1,6 +1,6 @@
 ## Record a squishy sound
 
-Record your own sound for the squash.
+Record your own sound for the animation.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 

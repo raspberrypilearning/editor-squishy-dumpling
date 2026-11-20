@@ -1,26 +1,35 @@
-## Add a star button
+## Lift the lid for the rainbow
 
-Add a second button for a shower of stars.
+Make the lid join in whenever the rainbow is clicked.
 
-![star sprite](images/star-sprite.png){:width="80px"}
+![lid sprite](images/lid-sprite.png){:width="80px"}
 
 ## Step 1
 
-Choose the **star sprite** from the sprite library.
-
-![PLACEHOLDER: choosing the star sprite from the library.](images/star-choose.png){:width="450px"}
+Click on the **lid sprite**.
 
 ## Step 2
 
-Drag it to the bottom left of the stage.
+Make the lid glide up when the message arrives.
+
+```blocks3
++when I receive [rainbow v]
++glide (1) secs to x: (65) y: (120)
+```
 
 ## Step 3
 
-Send a new message called `stars`{:class="block3events"} when the star is clicked.
+Let the lid wait, then glide back down.
 
 ```blocks3
-+when this sprite clicked
-+broadcast (stars v)
+when I receive [rainbow v]
+glide (1) secs to x: (65) y: (120)
++wait (1) seconds
++glide (1) secs to x: (0) y: (0)
 ```
 
-The dumpling answers the message in the next step.
+## Now run your code
+
+Click on the **rainbow**. Check that the lid lifts while the dumpling changes colour.
+
+![PLACEHOLDER: the lid lifts as the dumpling changes colour.](images/step-11.gif){:width="450px"}

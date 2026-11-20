@@ -1,6 +1,6 @@
-## Send the clones flying
+## Make every clone different
 
-Scatter the copies across the stage.
+Give each copy its own colour and size, so no two are the same.
 
 ![star sprite](images/star-sprite.png){:width="80px"}
 
@@ -8,26 +8,29 @@ You're still working on the **star sprite**.
 
 ## Step 1
 
-Send each copy gliding to a random spot.
+Pick a random colour and size for each copy.
 
 ```blocks3
-set size to (pick random (50) to (100)) %
-show
-+glide (0.8) secs to (random position v)
+when I start as a clone
+hide
+go to [back v] layer
+go to (dumpling v)
++change [color v] effect by (pick random (0) to (255))
++set size to (pick random (50) to (100)) %
 ```
 
 ## Step 2
 
-Tidy each copy away when it gets there.
+Bring the copy into view.
 
 ```blocks3
-show
-glide (0.8) secs to (random position v)
-+delete this clone
+change [color v] effect by (pick random (0) to (255))
+set size to (pick random (50) to (100)) %
++show
 ```
 
 ## Now run your code
 
-Click on the **star**. Check that the stars fly out across the stage and disappear.
+Click on the **star**. Check that a pile of different stars appears behind the dumpling.
 
-![PLACEHOLDER: stars fly out across the stage and disappear.](images/step-18.gif){:width="450px"}
+![PLACEHOLDER: a pile of different stars appears behind the dumpling.](images/step-18.gif){:width="450px"}

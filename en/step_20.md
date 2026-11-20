@@ -1,25 +1,35 @@
-## Challenges
+## Lift the lid for the star
 
-Make the dumpling your own.
+Make the lid join in for the star shower as well.
 
-## Set the scene
+![lid sprite](images/lid-sprite.png){:width="80px"}
 
-Choose a new backdrop for the stage from the library, or paint a kitchen of your own.
+## Step 1
 
-![PLACEHOLDER: the dumpling on a new backdrop.](images/challenge.png){:width="450px"}
+Click on the **lid sprite**.
 
-## Add another button
+## Step 2
 
-Add a third sprite with its own message, and give the dumpling a new reaction to go with it.
+Make the lid glide up when the message arrives.
 
-## Change the mood
+```blocks3
++when I receive [stars v]
++glide (1) secs to x: (65) y: (120)
+```
 
-Swap the dumpling's costumes for ones you draw yourself, so it pulls a different face when it is squashed.
+## Step 3
 
-## Make a chorus
+Let the lid wait, then glide back down.
 
-Add a sound to the lid as well, so the basket squeaks every time it lifts.
+```blocks3
+when I receive [stars v]
+glide (1) secs to x: (65) y: (120)
++wait (1) seconds
++glide (1) secs to x: (0) y: (0)
+```
 
-## Fill the stage
+## Now run your code
 
-Raise the number of clones the star makes, and change the glide time to send them further.
+Click on the **star**. Check that the lid lifts while the dumpling spins and the stars fly.
+
+![PLACEHOLDER: the lid lifts as the dumpling spins and the stars fly.](images/step-20.gif){:width="450px"}

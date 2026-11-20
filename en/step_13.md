@@ -1,23 +1,26 @@
-## Face the front again
+## Spin the dumpling
 
-Finish the spin facing forwards, so the dumpling is never left on its side.
+Send the dumpling spinning round and round.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
-You're still working on the **dumpling sprite**.
+## Step 1
 
-Point the dumpling the right way up when the spin ends.
+Click on the **dumpling sprite**.
+
+## Step 2
+
+Turn the dumpling 85 times when the message arrives.
 
 ```blocks3
-when I receive [stars v]
-repeat (85)
++when I receive [stars v]
++repeat (85)
 turn cw (15) degrees
-end
-+point in direction (90)
++end
 ```
 
 ## Now run your code
 
-Click on the **star**. Check that the dumpling is upright at the end of the spin.
+Click on the **star**. Check that the dumpling spins round.
 
-![PLACEHOLDER: the dumpling ends the spin upright.](images/step-13.gif){:width="450px"}
+![PLACEHOLDER: the dumpling spins round.](images/step-13.gif){:width="450px"}

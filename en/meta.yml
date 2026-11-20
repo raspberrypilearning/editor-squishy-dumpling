@@ -1,6 +1,6 @@
 title: Squishy dumpling
 hero_image: images/banner.png
-description: Make a dumpling that squashes, changes colour and spins when you click
+description: Make a dumpling that animates, changes colour and spins when you click
 listed: false
 landing: true
 pdf: false
@@ -13,6 +13,7 @@ steps:
   - title: Edit your sound
   - title: Play your sound
   - title: Add a rainbow button
+  - title: Make it clickable
   - title: Change colour
   - title: Back to yellow
   - title: Add a rainbow sound
