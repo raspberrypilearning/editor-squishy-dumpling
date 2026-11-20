@@ -14,7 +14,7 @@ when I start as a clone
 +change [color v] effect by (pick random (0) to (255))
 +set size to (pick random (50) to (100)) %
 go to (dumpling v)
-glide (0.7) secs to (random position v)
+glide (1) secs to (random position v)
 ```
 >
 > You can try other effects by clicking the 'color' drop-down menu.

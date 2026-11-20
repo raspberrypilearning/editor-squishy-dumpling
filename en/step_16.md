@@ -11,7 +11,7 @@ Put the `create clone of`{:class="block3control"} block in a loop so that it mak
 ```blocks3
 when this sprite clicked
 broadcast (stars v)
-+repeat (15)
++repeat (10)
 create clone of (myself v)
 wait (0.1) seconds
 +end
@@ -19,7 +19,7 @@ wait (0.1) seconds
 
 > [!TIP]
 >
-> Experiment with the number of repeats to make more stars.
+> Experiment with the number in the `repeat`{:class="block3control"} block to make more stars.
 >
 > Try a different `wait`{:class="block3control"} time to change how quickly the stars come.
 

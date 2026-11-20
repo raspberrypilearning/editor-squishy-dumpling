@@ -2,11 +2,11 @@
 
 Make the lid move when the star is clicked.
 
-![lid sprite](images/lid-sprite.png){:width="80px"}
-
 ## Step 1
 
 Click on the **lid sprite**.
+
+![lid sprite](images/lid-sprite.png){:width="80px"}
 
 ## Step 2
 
@@ -17,7 +17,11 @@ Make the lid glide up when it receives the `stars`{:class="block3events"} messag
 +glide (1) secs to x: (65) y: (120)
 ```
 
-![The when I receive rainbow script is duplicated, and the message is changed to stars.](images/star-lid.gif){:width="450px"}
+> [!TIP]
+>
+> Duplicate the `when I receive rainbow`{:class="block3events"} script, then change the message to 'stars'.
+>
+> ![The when I receive rainbow script is duplicated, and the message is changed to stars.](images/star-lid.gif){:width="450px"}
 
 ## Step 3
 

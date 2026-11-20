@@ -1,5 +1,9 @@
 ## Style the stars
 
+
+START HERE!!!!
+jsut need to test and make outptus
+
 Give each star clone colour effects and change size.
 
 ![star sprite](images/star-sprite.png){:width="80px"}
@@ -14,7 +18,7 @@ Change the colour of each clone.
 when I start as a clone
 +change [color v] effect by (25)
 go to (dumpling v)
-glide (0.7) secs to (random position v)
+glide (1) secs to (random position v)
 ```
 
 > [!TIP]
@@ -30,7 +34,7 @@ when I start as a clone
 change [color v] effect by (25)
 +set size to (50) %
 go to (dumpling v)
-glide (0.7) secs to (random position v)
+glide (1) secs to (random position v)
 ```
 
 ## Now run your code

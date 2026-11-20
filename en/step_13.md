@@ -2,40 +2,31 @@
 
 Move the star, then make it send a message when it is clicked.
 
+![star sprite](images/star-sprite.png){:width="80px"}
+
+You're still working on the **star sprite**.
+
 ## Step 1
 
-Click on the **star sprite**.
-
-![star sprite](images/star-sprite.png){:width="80px"}
+On the stage, drag the star to the right.
 
 ## Step 2
 
-On the stage, drag the star to the right of the stage.
-
-## Step 3
-
-Position the star using the `go to x: y:`{:class="block3motion"} block.
+Position the star using the `x: y:`{:class="block3motion"} block.
 
 ```blocks3
 +when green flag clicked
 +go to x: (153) y: (-123)
 ```
 
-## Step 4
+## Step 3
 
-Send a new message called `stars`{:class="block3events"} when the star is clicked.
+Send a new message and name it `stars`{:class="block3events"} when the star is clicked.
 
 ```blocks3
 +when this sprite clicked
 +broadcast (stars v)
 ```
-
-> [!TIP]
->
-> Click on the drop-down arrow and name the new message 'stars'.
->
-> ![The New Message window with 'star' typed as the message name.](images/star-message.png){:width="450px"}
-
 ## Now run your code
 
 Check that the **Star** is where you want it on the stage.

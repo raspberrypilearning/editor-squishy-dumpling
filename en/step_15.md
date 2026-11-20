@@ -4,7 +4,7 @@ Make a clone of the star above the dumpling.
 
 ![star sprite](images/star-sprite.png){:width="80px"}
 
-You're still working on the **star sprite**.
+Click on the **star sprite**.
 
 ## Step 1
 
@@ -23,8 +23,14 @@ When the clone starts, move it to the dumpling, then glide.
 ```blocks3
 +when I start as a clone
 +go to (dumpling v)
-+glide (0.7) secs to (random position v)
++glide (1) secs to (random position v)
 ```
+
+> [!TIP]
+>
+> Use the `go to random position`{:class="block3motion"} block and select 'dumpling' from the drop-down menu.
+>
+> ![The go to random position block, with dumpling chosen from the drop-down menu.](images/goto.gif){:width="450px"}
 
 ## Now run your code
 
