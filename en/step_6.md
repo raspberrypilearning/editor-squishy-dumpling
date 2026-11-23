@@ -20,3 +20,5 @@ Choose the **rainbow sprite** from the sprite library.
 >
 > ![Searching the sprite library for the rainbow.](images/rainbow-type.png){:width="450px"}
 
+**Test:** Check that your new rainbow sprite appears on the stage.
+

@@ -1,38 +1,21 @@
-## Add spin sound block
+## Challenges
 
-Play a sound as the spin starts.
+Make the dumpling your own.
 
-![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
+## Set the scene
 
-You're still working on the **dumpling sprite**.
+Choose a new backdrop for the stage from the library, or paint a kitchen of your own.
 
+![The dumpling on a new backdrop.](images/step_23.png){:width="450px"}
 
+## Add another button
 
-## Step 1
+Add a third sprite with its own message, and give the dumpling a new reaction to go with it.
 
-Add the sound block to the start of the script.
+## Change the mood
 
-```blocks3
-when I receive [stars v]
-+start sound (Whoop2 v)
-repeat (85)
-turn cw (15) degrees
-end
-point in direction (90)
-```
+Swap the dumpling's costumes for ones you draw yourself, so it shows a different face when the lid is clicked.
 
-## Step 2
+## More sounds
 
-Cut the sound off when the spin ends.
-
-```blocks3
-repeat (85)
-turn cw (15) degrees
-end
-+stop all sounds
-point in direction (90)
-```
-
-## Now run your code
-
-Click on the **star**. Check that your sound stops as soon as the dumpling stops spinning.
+Add a sound to the lid, so it plays every time the lid lifts.

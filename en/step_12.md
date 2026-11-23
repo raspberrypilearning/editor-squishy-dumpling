@@ -21,3 +21,5 @@ Choose the **star sprite** from the sprite library.
 Resize the star using the paint tools.
 
 ![The star is selected in the paint editor and dragged to a bigger size.](images/resize-star.gif){:width="450px"}
+
+**Test:** Check that the **star** appears on the stage.

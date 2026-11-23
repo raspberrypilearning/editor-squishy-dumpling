@@ -12,11 +12,12 @@ On the stage, drag the star to the right.
 
 ## Step 2
 
-Position the star using the `x: y:`{:class="block3motion"} block.
+Position the star using the `go to x: y:`{:class="block3motion"} block.
 
 ```blocks3
 +when green flag clicked
 +go to x: (153) y: (-123)
++set size to (100) %
 ```
 
 ## Step 3
@@ -27,8 +28,9 @@ Send a new message and name it `stars`{:class="block3events"} when the star is c
 +when this sprite clicked
 +broadcast (stars v)
 ```
+
 ## Now run your code
 
-Check that the **Star** is where you want it on the stage.
+Click the **Green Flag**. Check that the **star** goes to the bottom right of the stage.
 
-![The star sits on the right of the stage.](images/step13.png){:width="450px"}
+![The star at the bottom right of the stage.](images/step_13.png){:width="450px"}

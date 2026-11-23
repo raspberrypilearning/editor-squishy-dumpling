@@ -1,23 +1,27 @@
-## Face the front again
+## Find a spinning sound
 
-Finish the spin facing forwards, so the dumpling is never left on its side.
+Play a sound for as long as the spin lasts.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
 You're still working on the **dumpling sprite**.
 
-Point the dumpling the right way up when the spin ends.
+## Step 1
 
-```blocks3
-when I receive [stars v]
-repeat (85)
-turn cw (15) degrees
-end
-+point in direction (90)
-```
+Click on the **Sounds** tab.
 
-## Now run your code
+![The Sounds tab.](images/sounds-tab.png){:width="450px"}
 
-Click on the **star**. Check that the dumpling is upright at the end of the spin.
+## Step 2
 
-![The dumpling ends the spin upright.](images/step-21.gif){:width="450px"}
+Click **Choose a Sound**.
+
+![Choosing a sound.](images/sounds-choose.png){:width="250px"}
+
+## Step 3
+
+Choose a spinning sound from the library.
+
+![The Choose a Sound library.](images/sounds-list.png){:width="450px"}
+
+**Test:** Click **Play**. Check that you can hear your spinning sound.

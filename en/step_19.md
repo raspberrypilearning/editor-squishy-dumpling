@@ -11,7 +11,7 @@ Delete each clone when it finishes gliding.
 ```blocks3
 when I start as a clone
 change [color v] effect by (pick random (0) to (255))
-set size to (pick random (50) to (100)) %
+set size to (pick random (25) to (100)) %
 go to (dumpling v)
 glide (1) secs to (random position v)
 +delete this clone
@@ -21,4 +21,4 @@ glide (1) secs to (random position v)
 
 Click on the **star**. Check that each star disappears when it stops gliding.
 
-![Each star clone disappears when it stops gliding.](images/step-19.gif){:width="450px"}
+![Each star clone disappears when it stops gliding.](images/step_19.gif){:width="450px"}

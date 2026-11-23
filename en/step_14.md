@@ -10,32 +10,23 @@ Click on the **lid sprite**.
 
 ## Step 2
 
-Make the lid glide up when it receives the `stars`{:class="block3events"} message.
+Make the lid glide up when it receives the `stars`{:class="block3events"} message. It waits, then glides back down.
 
 ```blocks3
 +when I receive [stars v]
 +glide (1) secs to x: (65) y: (120)
++wait (1) seconds
++glide (1) secs to x: (0) y: (0)
 ```
 
 > [!TIP]
 >
-> Duplicate the `when I receive rainbow`{:class="block3events"} script, then change the message to 'stars'.
+> Right-click to duplicate the `when I receive rainbow`{:class="block3events"} script, then choose 'stars' from the drop-down menu.
 >
 > ![The when I receive rainbow script is duplicated, and the message is changed to stars.](images/star-lid.gif){:width="450px"}
-
-## Step 3
-
-Make the lid wait, then glide back down.
-
-```blocks3
-when I receive [stars v]
-glide (1) secs to x: (65) y: (120)
-+wait (1) seconds
-+glide (1) secs to x: (0) y: (0)
-```
 
 ## Now run your code
 
 Click on the **star**. Check that the lid glides up, then glides back down.
 
-![The lid glides up, then glides back down, when the star is clicked.](images/step-14.gif){:width="450px"}
+![The lid glides up, then glides back down, when the star is clicked.](images/step_14.gif){:width="450px"}

@@ -4,17 +4,11 @@ Move the sprite and set up the click.
 
 ![rainbow sprite](images/rainbow-sprite.png){:width="80px"}
 
-Still working in the **rainbow sprite**.
+You're still working on the **rainbow sprite**.
 
 ## Step 1
 
-In the stage, position the rainbow where you want it.
-
-> [!TIP]
->
-> You can change the stage to the large view.
->
-> ![The stage in the large view, with the rainbow dragged into place in front of the dumpling.](images/rainbowtip.gif){:width="450px"}
+On the stage, position the rainbow where you want it.
 
 ## Step 2
 
@@ -33,17 +27,22 @@ Add the `go to x: y:`{:class="block3motion"} position in blocks, so the button s
 
 ## Step 4
 
-Send a new message called when the rainbow is clicked.
+Send the message `rainbow`{:class="block3events"} when the sprite is clicked.
 
 ```blocks3
 +when this sprite clicked
 +broadcast (rainbow v)
 ```
+
 > [!TIP]
 >
-> Click on the drop-down arrow and name the new message 'rainbow'
+> Click on the drop-down arrow and name the new message 'rainbow'.
 >
 > ![The New Message window with 'rainbow' typed as the message name.](images/new-message-rainbow.png){:width="450px"}
 
-![The dumpling flashes through different colours.](images/step7.png){:width="450px"}
+## Now run your code
+
+Click the **Green Flag**. Check that the **rainbow** goes to the bottom left of the stage.
+
+![The rainbow at the bottom left of the stage.](images/step_7.png){:width="450px"}
 

@@ -46,4 +46,4 @@ end
 
 Click on the **rainbow**. Check that the dumpling flashes through different colours.
 
-![The dumpling flashes through different colours.](images/step-9.gif){:width="450px"}
+![The dumpling flashes through different colours.](images/step_9.gif){:width="450px"}

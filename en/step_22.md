@@ -1,6 +1,6 @@
-## Find a spinning sound
+## Add spin sound block
 
-Play a sound for as long as the spin lasts.
+Play a sound as the spin starts.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
@@ -8,20 +8,18 @@ You're still working on the **dumpling sprite**.
 
 ## Step 1
 
-Click on the **Sounds** tab.
+Add the sound block to the start of the script. Add a `stop all sounds`{:class="block3sound"} block when the spin ends.
 
-![The Sounds tab.](images/sounds-tab.png){:width="450px"}
+```blocks3
+when I receive [stars v]
++start sound (Whoop2 v)
+repeat (85)
+turn cw (15) degrees
+end
++stop all sounds
+point in direction (90)
+```
 
-## Step 2
+## Now run your code
 
-Click **Choose a Sound**.
-
-![Choosing a sound.](images/sounds-choose.png){:width="250px"}
-
-## Step 3
-
-Choose a spinning sound from the library.
-
-![The Choose a Sound library.](images/sounds-list.png){:width="450px"}
-
-**Test:** Click **Play**. Check that you can hear your spinning sound.
+Click on the **star**. Check that your sound stops as soon as the dumpling stops spinning.

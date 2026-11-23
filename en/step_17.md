@@ -1,9 +1,6 @@
 ## Style the stars
 
 
-START HERE!!!!
-jsut need to test and make outptus
-
 Give each star clone colour effects and change size.
 
 ![star sprite](images/star-sprite.png){:width="80px"}
@@ -39,6 +36,6 @@ glide (1) secs to (random position v)
 
 ## Now run your code
 
-Click on the **star**. Check that each star clone is a different colour and size.
+Click on the **star**. Check that the star clones are green and smaller.
 
-![Star clones of different colours and sizes glide away from the dumpling.](images/step-17.gif){:width="450px"}
+![Smaller green star clones glide away from the dumpling.](images/step_17.gif){:width="450px"}

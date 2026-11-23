@@ -13,7 +13,7 @@ Click on the **lid sprite**.
 Add the glide blocks when the rainbow message is received.
 
 ```blocks3
-+ when I receive [rainbow v]
++when I receive [rainbow v]
 +glide (1) secs to x: (65) y: (120)
 +wait (1) seconds
 +glide (1) secs to x: (0) y: (0)
@@ -21,12 +21,12 @@ Add the glide blocks when the rainbow message is received.
 
 > [!TIP]
 >
->Right click to duplicate the glide blocks and move them under the `when I receive rainbow`{:class="block3events"}.
+> Right-click to duplicate the glide blocks and move them under the `when I receive rainbow`{:class="block3events"} block.
 >
->![The glide blocks are duplicated and dragged under the when I receive rainbow block.](images/lid-rainbow-tip.gif){:width="450px"}
+> ![The glide blocks are duplicated and dragged under the when I receive rainbow block.](images/lid-rainbow-tip.gif){:width="450px"}
 
 ## Now run your code
 
-Click on the **rainbow** and check that the lid lifts up.
+Click on the **rainbow**. Check that the lid glides up, then glides back down.
 
-![The lid lifts as the dumpling changes colour.](images/step-8.gif){:width="450px"}
+![The lid glides up, then glides back down, when the rainbow is clicked.](images/step_8.gif){:width="450px"}

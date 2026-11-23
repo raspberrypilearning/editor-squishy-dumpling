@@ -22,7 +22,7 @@ wait (0.1) seconds
 
 > [!TIP]
 >
-> Play with the number of repeats to make the animation longer or shorter.
+> Experiment with the number in the `repeat`{:class="block3control"} block to make the animation longer or shorter.
 
 ## Step 3
 
@@ -41,4 +41,4 @@ end
 
 Click on the **lid**. Check that the dumpling animates.
 
-![The dumpling animates when the lid is clicked.](images/step-2.gif){:width="450px"}
+![The dumpling animates when the lid is clicked.](images/step_2.gif){:width="450px"}

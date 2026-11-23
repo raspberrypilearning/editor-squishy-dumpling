@@ -1,6 +1,6 @@
 ## Play your sound
 
-Make your recording play when clicking the dumpling.
+Make your recording play when the lid is clicked.
 
 ![dumpling sprite](images/dumpling-sprite.png){:width="80px"}
 
@@ -8,8 +8,9 @@ You're still working on the **dumpling sprite**.
 
 ## Step 1
 
-Clcik back in the **Code** tab, 
+Click on the **Code** tab.
 
+![The Code tab.](images/code-tab.png){:width="450px"}
 
 ## Step 2
 

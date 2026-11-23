@@ -27,4 +27,4 @@ wait (0.1) seconds
 
 Click on the **star**. Check that lots of star clones glide away from the dumpling.
 
-![Lots of star clones glide away from the dumpling.](images/step-16.gif){:width="450px"}
+![Lots of star clones glide away from the dumpling.](images/step_16.gif){:width="450px"}

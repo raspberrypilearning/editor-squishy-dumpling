@@ -20,7 +20,7 @@ Click **Faster** to make your sound higher pitched.
 
 ## Step 2
 
-Rename your sound.
+Rename your sound 'squishy'.
 
 ![The sound name box named 'squishy'.](images/rename-sound.png){:width="250px"}
 

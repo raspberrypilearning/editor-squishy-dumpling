@@ -36,4 +36,4 @@ When the clone starts, move it to the dumpling, then glide.
 
 Click on the **star**. Check that a star clone glides away from the dumpling.
 
-![A star clone glides away from the dumpling.](images/step-15.gif){:width="450px"}
+![A star clone glides away from the dumpling.](images/step_15.gif){:width="450px"}
