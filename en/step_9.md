@@ -11,10 +11,10 @@ Click on the **dumpling sprite**.
 
 ## Step 2
 
-Look for when **rainbow** message arrives.
+The dumpling receives the `rainbow`{:class="block3events"} message.
 
 ```blocks3
-when I receive [rainbow v]
++when I receive [rainbow v]
 ```
 
 ## Step 3
