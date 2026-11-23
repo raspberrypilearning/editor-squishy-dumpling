@@ -18,14 +18,24 @@ Click on the **Code** tab.
 
 ## Step 3
 
-Add the `go to x: y:`{:class="block3motion"} position in blocks, so the button starts in the same place every time.
+Add the `go to x: y:`{:class="block3motion"} block, so the button starts in the same place every time. Don't change the numbers in the block.
 
 ```blocks3
 +when green flag clicked
-+go to x: (-153) y: (-123)
++go to x: () y: ()
 ```
 
 ## Step 4
+
+Stop the rainbow from being dragged on the stage.
+
+```blocks3
+when green flag clicked
+go to x: () y: ()
++set drag mode [not draggable v]
+```
+
+## Step 5
 
 Send the message `rainbow`{:class="block3events"} when the sprite is clicked.
 
@@ -34,15 +44,22 @@ Send the message `rainbow`{:class="block3events"} when the sprite is clicked.
 +broadcast (rainbow v)
 ```
 
-> [!TIP]
->
-> Click on the drop-down arrow and name the new message 'rainbow'.
->
-> ![The New Message window with 'rainbow' typed as the message name.](images/new-message-rainbow.png){:width="450px"}
+## Step 6
+
+Make the rainbow get smaller, then go back to its normal size, when it is clicked.
+
+```blocks3
+when this sprite clicked
+broadcast (rainbow v)
++change size by (-10)
++wait (0.1) seconds
++change size by (10)
+```
 
 ## Now run your code
 
-Click the **Green Flag**. Check that the **rainbow** goes to the bottom left of the stage.
+Drag the **rainbow** to a new place on the stage. Click the **Green Flag**. Check that the **rainbow** goes back to where you positioned it.
+
+Click on the **rainbow**. Check that it gets smaller, then goes back to its normal size.
 
 ![The rainbow at the bottom left of the stage.](images/step_7.png){:width="450px"}
-

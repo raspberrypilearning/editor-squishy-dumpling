@@ -14,7 +14,7 @@ Open the **Code** tab.
 
 ## Step 2
 
-Play a sound before the colours start to change.
+Play a sound before the colours start to change. Add a `stop all sounds`{:class="block3sound"} block when the colours stop changing.
 
 ```blocks3
 when I receive [rainbow v]
@@ -24,6 +24,7 @@ change [color v] effect by (25)
 wait (0.1) seconds
 end
 clear graphic effects
++stop all sounds
 ```
 
 ## Now run your code

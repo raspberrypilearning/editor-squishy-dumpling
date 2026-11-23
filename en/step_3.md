@@ -18,6 +18,10 @@ Hover over **Add a Sound** and click **Record**.
 
 ![The Record option in the Add a Sound menu.](images/record.png){:width="250px"}
 
+> [!TIP]
+>
+> If you don't have a microphone, click **Choose a Sound** and pick a sound from the library.
+
 ## Step 3
 
 Click the **Record** button and make a squishy noise.

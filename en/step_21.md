@@ -24,4 +24,8 @@ Choose a spinning sound from the library.
 
 ![The Choose a Sound library.](images/sounds-list.png){:width="450px"}
 
+> [!TIP]
+>
+> You can change the speed of a library sound too, with the **Faster** and **Slower** buttons.
+
 **Test:** Click **Play**. Check that you can hear your spinning sound.

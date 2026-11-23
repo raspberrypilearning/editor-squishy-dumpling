@@ -12,11 +12,11 @@ On the stage, drag the star to the right.
 
 ## Step 2
 
-Position the star using the `go to x: y:`{:class="block3motion"} block.
+Position the star using the `go to x: y:`{:class="block3motion"} block. Don't change the numbers in the block.
 
 ```blocks3
 +when green flag clicked
-+go to x: (153) y: (-123)
++go to x: () y: ()
 +set size to (100) %
 ```
 
@@ -29,14 +29,21 @@ Send a new message and name it `star`{:class="block3events"} when the star is cl
 +broadcast (star v)
 ```
 
-> [!TIP]
->
-> Click on the drop-down arrow and name the new message 'star'.
->
-> ![The New Message window with 'star' typed as the message name.](images/star-message.png){:width="450px"}
+## Step 4
+
+Make the star spin when it is clicked.
+
+```blocks3
++when this sprite clicked
++repeat (24)
+turn cw (15) degrees
++end
+```
 
 ## Now run your code
 
-Click the **Green Flag**. Check that the **star** goes to the bottom right of the stage.
+Drag the **star** to a new place on the stage. Click the **Green Flag**. Check that the **star** goes back to where you positioned it.
+
+Click on the **star**. Check that it spins.
 
 ![The star at the bottom right of the stage.](images/step_13.png){:width="450px"}

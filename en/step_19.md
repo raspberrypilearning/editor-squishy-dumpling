@@ -10,7 +10,7 @@ Delete each clone when it finishes gliding.
 
 ```blocks3
 when I start as a clone
-change [color v] effect by (pick random (0) to (255))
+change [color v] effect by (pick random (0) to (200))
 set size to (pick random (25) to (100)) %
 go to (dumpling v)
 glide (1) secs to (random position v)

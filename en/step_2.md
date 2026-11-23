@@ -37,7 +37,7 @@ wait (0.1) seconds
 
 ## Step 4
 
-Go back to the first costume at the end.
+At the end of the animation, switch back to costume 1.
 
 ```blocks3
 when I receive [lid v]

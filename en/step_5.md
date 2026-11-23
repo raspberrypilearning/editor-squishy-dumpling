@@ -14,7 +14,7 @@ Click on the **Code** tab.
 
 ## Step 2
 
-Play your sound before the animation starts.
+Play your sound before the animation starts. Add a `stop all sounds`{:class="block3sound"} block when the animation ends.
 
 ```blocks3
 when I receive [lid v]
@@ -24,8 +24,13 @@ next costume
 wait (0.1) seconds
 end
 switch costume to (costume 1 v)
++stop all sounds
 ```
 
 ## Now run your code
 
 Click on the **lid**. Check that your sound plays while the dumpling animates.
+
+> [!TIP]
+>
+> If you prefer a different sound, go back to the **Sounds** tab and record a new one.
