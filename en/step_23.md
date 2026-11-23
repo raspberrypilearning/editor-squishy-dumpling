@@ -4,7 +4,7 @@ Make the dumpling your own.
 
 ## Set the scene
 
-Choose a new backdrop for the stage from the library, or paint a kitchen of your own.
+Choose a new backdrop for the stage from the library, or make one with the paint tools.
 
 ![The dumpling on a new backdrop.](images/step_23.png){:width="450px"}
 
