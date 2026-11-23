@@ -10,7 +10,7 @@ Put the `create clone of`{:class="block3control"} block in a loop so that it mak
 
 ```blocks3
 when this sprite clicked
-broadcast (stars v)
+broadcast (star v)
 +repeat (10)
 create clone of (myself v)
 wait (0.1) seconds

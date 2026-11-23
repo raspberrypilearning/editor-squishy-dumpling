@@ -12,7 +12,7 @@ Make a clone of the star when it is clicked.
 
 ```blocks3
 when this sprite clicked
-broadcast (stars v)
+broadcast (star v)
 +create clone of (myself v)
 ```
 

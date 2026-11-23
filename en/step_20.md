@@ -10,10 +10,10 @@ Click on the **dumpling sprite**.
 
 ## Step 2
 
-Turn the dumpling 85 times when it receives the `stars`{:class="block3events"} message.
+Turn the dumpling 85 times when it receives the `star`{:class="block3events"} message.
 
 ```blocks3
-+when I receive [stars v]
++when I receive [star v]
 +repeat (85)
 turn cw (15) degrees
 +end
@@ -28,7 +28,7 @@ turn cw (15) degrees
 Point the dumpling the right way up when the spin ends.
 
 ```blocks3
-when I receive [stars v]
+when I receive [star v]
 repeat (85)
 turn cw (15) degrees
 end

@@ -22,12 +22,18 @@ Position the star using the `go to x: y:`{:class="block3motion"} block.
 
 ## Step 3
 
-Send a new message and name it `stars`{:class="block3events"} when the star is clicked.
+Send a new message and name it `star`{:class="block3events"} when the star is clicked.
 
 ```blocks3
 +when this sprite clicked
-+broadcast (stars v)
++broadcast (star v)
 ```
+
+> [!TIP]
+>
+> Click on the drop-down arrow and name the new message 'star'.
+>
+> ![The New Message window with 'star' typed as the message name.](images/star-message.png){:width="450px"}
 
 ## Now run your code
 

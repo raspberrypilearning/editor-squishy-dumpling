@@ -11,7 +11,7 @@ You're still working on the **dumpling sprite**.
 Add the sound block to the start of the script. Add a `stop all sounds`{:class="block3sound"} block when the spin ends.
 
 ```blocks3
-when I receive [stars v]
+when I receive [star v]
 +start sound (Whoop2 v)
 repeat (85)
 turn cw (15) degrees
