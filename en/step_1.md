@@ -6,23 +6,36 @@ The starter project is open beside these instructions, with the dumpling and lid
 
 ## Step 1
 
-Click on the **lid sprite**, it has some blocks to get you started.
+Click on the **lid sprite**.
 
 ![lid sprite](images/lid-sprite.png){:width="80px"}
 
 ## Step 2
 
+Make the lid go to the middle of the stage, in front of the dumpling, when the green flag is clicked.
+
+![lid sprite](images/lid-sprite.png){:width="80px"}
+```blocks3
++when green flag clicked
++go to x: (0) y: (0)
++go to [front v] layer
+```
+
+## Step 3
+
 Make the lid glide up when it is clicked.
 
+![lid sprite](images/lid-sprite.png){:width="80px"}
 ```blocks3
 +when this sprite clicked
 +glide (1) secs to x: (65) y: (120)
 ```
 
-## Step 3
+## Step 4
 
 Let the lid wait, then glide back down.
 
+![lid sprite](images/lid-sprite.png){:width="80px"}
 ```blocks3
 when this sprite clicked
 glide (1) secs to x: (65) y: (120)
@@ -30,10 +43,11 @@ glide (1) secs to x: (65) y: (120)
 +glide (1) secs to x: (0) y: (0)
 ```
 
-## Step 4
+## Step 5
 
 Send the `lid`{:class="block3events"} message as it lifts.
 
+![lid sprite](images/lid-sprite.png){:width="80px"}
 ```blocks3
 when this sprite clicked
 +broadcast (lid v)

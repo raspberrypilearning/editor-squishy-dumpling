@@ -10,6 +10,17 @@ Click on the **dumpling sprite**.
 
 ## Step 2
 
+Make the dumpling go to the middle of the stage, face the right way, and go behind the lid when the green flag is clicked.
+
+```blocks3
++when green flag clicked
++go to x: (0) y: (0)
++point in direction (90)
++go to [back v] layer
+```
+
+## Step 3
+
 Make the dumpling swap costumes when it gets the `lid`{:class="block3events"} message.
 
 ```blocks3
@@ -24,7 +35,7 @@ wait (0.1) seconds
 >
 > Experiment with the number in the `repeat`{:class="block3control"} block to make the animation longer or shorter.
 
-## Step 3
+## Step 4
 
 Go back to the first costume at the end.
 
